@@ -1,0 +1,13 @@
+numpy==1.23.5
+matplotlib
+argcomplete
+git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI
+wandb
+tensorboard
+pillow
+prettytable
+cityscapesscripts
+opencv-python
+timm
+kornia
+scipy
