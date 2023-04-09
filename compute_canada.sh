@@ -2,7 +2,7 @@
 #SBATCH --time=12:00:00
 #SBATCH --account=rrg-swasland
 #SBATCH --mail-user=changwon.lee@mail.utoronto.ca
-#SBATCH --job-name=100_r1_cu
+#SBATCH --job-name=100_r1_st1_cu
 #SBATCH --cpus-per-task=4               # CPU cores/threads (keep ratio of gpu:cpu to 1:2)
 #SBATCH --gres=gpu:p100:2                 # Number of GPUs (per node)
 #SBATCH --mem=64G                        # memory per node
@@ -15,7 +15,7 @@ workdir=/home/$USER/projects/rrg-swasland/$USER/csc413project
 SING_IMG=$workdir/misc/csc413.sif
 ctscapes_zip=/home/$USER/projects/rrg-swasland/Datasets/cityscapes
 gta_zip=/home/$USER/projects/rrg-swasland/Datasets/gta/gta.zip
-type=r1_cu
+type=r1_st1_cu
 comp=100
 
 # Load Singularity
