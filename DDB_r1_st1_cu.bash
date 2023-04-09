@@ -6,8 +6,8 @@ OUTPUT=/home/results/$COMPRESSION
 cd /home/submodules/DDB
 
 #? Convert dataset
-python3 tools/convert_datasets/gta.py /home/data/gta
-python tools/convert_datasets/cityscapes.py /home/data/cityscapes
+python3 tools/convert_datasets/gta.py /home/data/gta > /dev/null
+python tools/convert_datasets/cityscapes.py /home/data/cityscapes > /dev/null
 
 #? Train
 ARGS="--work-dir $OUTPUT"
