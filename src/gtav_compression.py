@@ -19,7 +19,7 @@ def compress(image_file, output_file, level):
 
 
 if __name__ == "__main__":
-    gtav_dir = '/Users/chenqili/Desktop/CSC413/Project/images'
+    gtav_dir = '/home/data/images'
     compression_level = [90,70,50,30,10]
 
     for lv in compression_level:

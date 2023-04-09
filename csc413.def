@@ -1,0 +1,4 @@
+Bootstrap: docker
+Registry: localhost:5000
+Namespace:
+From: csc413:latest
